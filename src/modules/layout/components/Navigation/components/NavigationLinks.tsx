@@ -5,7 +5,7 @@ import { NavigationLink } from "./NavigationLink";
 
 type Props = {};
 
-export const NavigationItems: React.FC<Props> = () => {
+export const NavigationLinks: React.FC<Props> = () => {
   return (
     <List>
       {navigationLinks.map((link) => (
