@@ -6,7 +6,7 @@ import {
   ListItemText,
 } from "@mui/material";
 
-import type { NavigationLink as NavigationLinkType } from "../types";
+import type { NavigationLink as NavigationLinkType } from "@/modules/layout/components/Navigation/types";
 
 type Props = NavigationLinkType;
 

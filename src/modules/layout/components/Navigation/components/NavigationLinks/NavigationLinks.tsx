@@ -1,7 +1,7 @@
 import { List } from "@mui/material";
 
 import { navigationLinks } from "@/modules/layout/components/Navigation/routes";
-import { NavigationLink } from "./NavigationLink";
+import { NavigationLink } from "../NavigationLink";
 
 type Props = {};
 
