@@ -16,7 +16,7 @@ export const VerticalTabHeading: React.FC<Props> = ({
       <Typography variant="h6" component="h3">
         {title}
       </Typography>
-      <Typography variant="subtitle2" color="text.secondary">
+      <Typography variant="subtitle2" component="p" color="text.secondary">
         {subtitle}
       </Typography>
       {!hideDivider && <Divider light sx={{ mt: 2, mb: 3 }} />}

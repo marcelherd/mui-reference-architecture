@@ -1,7 +1,20 @@
-import { type ToolbarProps, Toolbar, styled } from "@mui/material";
+import { type ToolbarProps, Toolbar, Typography, styled } from "@mui/material";
 
-export const DrawerHeader = styled(Toolbar)<ToolbarProps>(({ theme }) => ({
-  ...theme.typography.h6,
+const StyledToolbar = styled(Toolbar)<ToolbarProps>(({ theme }) => ({
   background: theme.palette.primary.dark,
   color: theme.palette.primary.contrastText,
 }));
+
+type Props = {
+  children?: React.ReactNode;
+};
+
+export const DrawerHeader: React.FC<Props> = ({ children }) => {
+  return (
+    <StyledToolbar>
+      <Typography variant="h6" component="h1">
+        {children}
+      </Typography>
+    </StyledToolbar>
+  );
+};

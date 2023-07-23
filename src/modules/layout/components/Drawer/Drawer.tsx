@@ -1,4 +1,9 @@
-import { type DrawerProps, Drawer as MuiDrawer, styled } from "@mui/material";
+import {
+  type DrawerProps,
+  Drawer as MuiDrawer,
+  Typography,
+  styled,
+} from "@mui/material";
 
 import { PAGE_DRAWER_WIDTH } from "@/modules/layout";
 import { DrawerHeader } from "./components/DrawerHeader";
